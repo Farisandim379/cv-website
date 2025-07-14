@@ -1,10 +1,13 @@
 <script setup>
-defineProps({ title: String });
+// Komponen ini menerima 'title' sebagai sebuah properti (prop).
+defineProps({
+  title: String
+});
 </script>
 
 <template>
-  <div class="mb-12 text-center">
-    <h2 class="text-4xl font-bold text-white">{{ title }}</h2>
-    <div class="w-24 h-1 bg-brand-yellow mx-auto mt-4 rounded"></div>
+  <div class="mb-16 text-center">
+    <h2 class="text-4xl md:text-5xl font-black text-gray-800 mb-4">{{ title }}</h2>
+    <div class="w-24 h-1.5 bg-gradient-to-r from-violet-500 to-purple-500 mx-auto rounded-full"></div>
   </div>
 </template>
