@@ -32,7 +32,7 @@ const projects = [
   },
   {
     title: 'Aplikasi Manajemen Tugas',
-    image: '/images/managements.jpg',  // path relatif ke folder frontend/public
+    image: '/foto/managements.jpg',  // path relatif ke folder frontend/public
     description: 'Aplikasi untuk melacak progres tugas harian.',
     tech: ['React', 'Firebase'],
     link: '#'
